@@ -1,9 +1,17 @@
-"""Constants for HOforecast_solar."""
-from logging import Logger, getLogger
+"""Constants for HAforecast_solar."""
 
-LOGGER: Logger = getLogger(__package__)
+from __future__ import annotations
 
-NAME = "Integration blueprint"
-DOMAIN = "HOforecast_solar"
-VERSION = "0.0.0"
-ATTRIBUTION = "Data provided by http://jsonplaceholder.typicode.com/"
+import logging
+
+DOMAIN = "forecast_solar"
+LOGGER = logging.getLogger(__package__)
+
+CONF_DECLINATION = "declination"
+CONF_AZIMUTH = "azimuth"
+CONF_MODULES_POWER = "modules_power"
+CONF_DAMPING = "damping"
+CONF_DAMPING_MORNING = "damping_morning"
+CONF_DAMPING_EVENING = "damping_evening"
+CONF_INVERTER_SIZE = "inverter_size"
+CONF_HORIZON = "horizon"

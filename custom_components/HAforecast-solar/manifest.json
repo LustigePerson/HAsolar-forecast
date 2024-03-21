@@ -1,12 +1,13 @@
 {
-  "domain": "HOforecast_solar",
-  "name": "Integration blueprint",
+  "domain": "HAforecast_solar",
+  "name": "HAForecast.Solar",
   "codeowners": [
     "@LustigePerson"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/LustigePerson/HOforecast_solar",
+  "documentation": "https://github.com/LustigePerson/HAforecast_solar",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/LustigePerson/HOforecast_solar/issues",
+  "requirements": ["forecast-solar==3.0.0"],
+  "issue_tracker": "https://github.com/LustigePerson/HAforecast_solar/issues",
   "version": "0.0.0"
 }

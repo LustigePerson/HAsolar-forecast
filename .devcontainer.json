@@ -1,5 +1,5 @@
 {
-    "name": "LustigePerson/HOforecast_solar",
+    "name": "LustigePerson/HAforecast_solar",
     "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
     "postCreateCommand": "scripts/setup",
     "forwardPorts": [

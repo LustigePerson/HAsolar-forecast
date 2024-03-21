@@ -1,6 +1,6 @@
 {
     "name": "Integration blueprint",
-    "filename": "HOforecast_solar.zip",
+    "filename": "HAforecast_solar.zip",
     "hide_default_branch": true,
     "homeassistant": "2023.8.0",
     "render_readme": true,
