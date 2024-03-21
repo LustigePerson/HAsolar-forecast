@@ -1,0 +1,12 @@
+{
+  "domain": "HOforecast_solar",
+  "name": "Integration blueprint",
+  "codeowners": [
+    "@LustigePerson"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/LustigePerson/HOforecast_solar",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/LustigePerson/HOforecast_solar/issues",
+  "version": "0.0.0"
+}
